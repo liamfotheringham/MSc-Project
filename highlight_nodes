@@ -1,23 +1,33 @@
 #!/bin/bash
 
+#Liam Fotheringham - 2595981F
+
 echo "Highlighting nodes $1 graph..."
 
 filename=$1
+folder_name="${filename::-12}"
+mkdir -p "$folder_name/graphs/" #Create directory for graphs
+mkdir -p "$folder_name/images/" #Create directory for graph drawings
 
-node_one=$(( $RANDOM % 34 + 1 ))
-node_two=$(( $RANDOM % 34 + 1 ))
+######################################################################################################################
+# Loop through each combination of node pairs and create graph and graph drawing where nodes are highlighted         #
+######################################################################################################################
 
-highlighted_filename="${filename::-12}_$node_one-$node_two.gv" 
+for ((i = 1; i < $2; i++)); do
+    for ((j = i+1; j <= $2; j++)); do
 
-echo "$filename"
-echo "$highlighted_filename"
+        highlighted_filename="${filename::-12}_$i-$j.gv" 
 
-cp $filename $highlighted_filename
+        cp $filename "$folder_name/graphs/$highlighted_filename" #Copy the graph structure to the graph folder
 
-echo "$node_one[style=filled, fillcolor=cornflowerblue]" >> $highlighted_filename
-echo "$node_two[style=filled, fillcolor=cornflowerblue]" >> $highlighted_filename
-echo "}" >> $highlighted_filename
+        #Append highlight node code to end of file
+        echo "$i[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
+        echo "$j[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
+        echo "}" >> "$folder_name/graphs/$highlighted_filename"
 
-neato -n2 -Tpng "$highlighted_filename" -o "$highlighted_filename".png
+        #Create graph drawing
+        neato -n2 -Tpng "$folder_name/graphs/$highlighted_filename" -o "$folder_name/images/${highlighted_filename::-3}".png
+    done
+done
 
 echo "All Done!"

@@ -1,0 +1,8 @@
+#Ignore all images
+*.png
+
+#Ignore Stimuli Folders
+ZKCNeato/
+ZKCNeato_Coloured/
+ZKCNeato_Mirror/
+ZKCNeato_Mirror_Coloured/
