@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Colouring $1 graph..."
+
+filename=$1
+
+edgepaint -color_scheme=accent7 "$filename" > "${filename::-3}"_Coloured.gv
+
+neato -n2 -Tpng "${filename::-3}"_Coloured.gv -o "${filename::-3}"_Coloured.png
+
+echo "All Done!"

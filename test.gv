@@ -1,0 +1,5 @@
+graph test {
+	A [pos="0,0!"]
+	B [pos="0,1!"]
+	A -- B
+}

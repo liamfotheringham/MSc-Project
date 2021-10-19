@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Highlighting nodes $1 graph..."
+
+filename=$1
+
+node_one=$(( $RANDOM % 34 + 1 ))
+node_two=$(( $RANDOM % 34 + 1 ))
+
+highlighted_filename="${filename::-12}_$node_one-$node_two.gv" 
+
+echo "$filename"
+echo "$highlighted_filename"
+
+cp $filename $highlighted_filename
+
+echo "$node_one[style=filled, fillcolor=cornflowerblue]" >> $highlighted_filename
+echo "$node_two[style=filled, fillcolor=cornflowerblue]" >> $highlighted_filename
+echo "}" >> $highlighted_filename
+
+neato -n2 -Tpng "$highlighted_filename" -o "$highlighted_filename".png
+
+echo "All Done!"
