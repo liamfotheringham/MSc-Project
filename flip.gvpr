@@ -1,0 +1,10 @@
+BEG_G{
+    ("// old bb: ", $G.bb);
+    $G.bb=xOf(llOf($G.bb)) + "," + "-" + yOf(llOf($G.bb)) + "," + xOf(urOf($G.bb)) + "," + "-" + yOf(urOf($G.bb));
+    ("// new bb: ", $G.bb);
+}
+N{
+    ("// old pos: ", $.pos);
+    $.pos=(string)$.X + "," + (string)(- $.Y);
+    ("// new pos: ", $.pos);
+}
