@@ -7,7 +7,17 @@ FDP/Shortest Path/ZKCFDP_Coloured/
 FDP/Shortest Path/ZKCFDP_Mirror/
 FDP/Shortest Path/ZKCFDP_Mirror_Coloured/
 
+FDP/Individual/ZKCFDP/
+FDP/Individual/ZKCFDP_Coloured/
+FDP/Individual/ZKCFDP_Mirror/
+FDP/Individual/ZKCFDP_Mirror_Coloured/
+
 Neato/Shortest Path/ZKCNeato/
 Neato/Shortest Path/ZKCNeato_Coloured/
 Neato/Shortest Path/ZKCNeato_Mirror/
 Neato/Shortest Path/ZKCNeato_Mirror_Coloured/
+
+Neato/Individual/ZKCNeato/
+Neato/Individual/ZKCNeato_Coloured/
+Neato/Individual/ZKCNeato_Mirror/
+Neato/Individual/ZKCNeato_Mirror_Coloured/
