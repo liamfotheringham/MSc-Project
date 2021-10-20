@@ -26,8 +26,23 @@ for ((i = 1; i < $2; i++)); do
         echo "}" >> "$folder_name/graphs/$highlighted_filename"
 
         #Create graph drawing
-        neato -n2 -Tpng "$folder_name/graphs/$highlighted_filename" -o "$folder_name/images/${highlighted_filename::-3}".png
-    done
-done
+        if [ $3 == "neato" ]
+        then
+            
+            #Draw graph using neato layout
+            neato -n2 -Tpng "$folder_name/graphs/$highlighted_filename" -o "$folder_name/images/${highlighted_filename::-3}".png
+
+        elif [ $3 == "sfdp" ]
+        then
+
+            #Draw graph using (s)fdp layout
+            sfdp -Tpng "$folder_name/graphs/$highlighted_filename" -o "$folder_name/images/${highlighted_filename::-3}".png
+
+        else
+            echo "does not recognise command"
+        fi
+
+            done
+        done
 
 echo "All Done!"
