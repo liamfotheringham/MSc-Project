@@ -2,7 +2,12 @@
 *.png
 
 #Ignore Stimuli Folders
-ZKCNeato/
-ZKCNeato_Coloured/
-ZKCNeato_Mirror/
-ZKCNeato_Mirror_Coloured/
+FDP/Shortest Path/ZKCFDP/
+FDP/Shortest Path/ZKCFDP_Coloured/
+FDP/Shortest Path/ZKCFDP_Mirror/
+FDP/Shortest Path/ZKCFDP_Mirror_Coloured/
+
+Neato/Shortest Path/ZKCNeato/
+Neato/Shortest Path/ZKCNeato_Coloured/
+Neato/Shortest Path/ZKCNeato_Mirror/
+Neato/Shortest Path/ZKCNeato_Mirror_Coloured/
