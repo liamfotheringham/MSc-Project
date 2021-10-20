@@ -1,6 +1,5 @@
 graph G {
 	graph [bb="0,-0,300.2,-404.45",
-		layout=neato,
 		outputorder=edgesfirst,
 		splines=line
 	];
