@@ -9,6 +9,14 @@ folder_name="${filename::-12}"
 mkdir -p "$folder_name/graphs/" #Create directory for graphs
 mkdir -p "$folder_name/images/" #Create directory for graph drawings
 
+###############################
+# Hide node number labels     #
+###############################
+
+for ((i = 1; i <= $2; i++)); do
+    no_label_code="$no_label_code$i[label=\"\"]"$'\n'
+done
+
 ######################################################################################################################
 # Loop through each combination of node pairs and create graph and graph drawing where nodes are highlighted         #
 ######################################################################################################################
@@ -21,6 +29,7 @@ for ((i = 1; i < $2; i++)); do
         cp $filename "$folder_name/graphs/$highlighted_filename" #Copy the graph structure to the graph folder
 
         #Append highlight node code to end of file
+        echo "$no_label_code" >> "$folder_name/graphs/$highlighted_filename"
         echo "$i[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
         echo "$j[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
         echo "}" >> "$folder_name/graphs/$highlighted_filename"
@@ -42,7 +51,7 @@ for ((i = 1; i < $2; i++)); do
             echo "does not recognise command"
         fi
 
-            done
-        done
+    done
+done
 
 echo "All Done!"
