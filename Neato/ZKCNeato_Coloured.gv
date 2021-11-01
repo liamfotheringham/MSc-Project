@@ -11,7 +11,7 @@ graph G {
 		style=filled
 	];
 	edge [arrowhead=none,
-		penwidth=1
+		penwidth=2
 	];
 	2	[height=0.20,
 		pos="113.93,209.83",
