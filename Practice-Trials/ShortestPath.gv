@@ -12,7 +12,7 @@ graph G {
                 style=filled
         ];
         edge [arrowhead=none,
-                penwidth=1
+                penwidth=2
         ];
         1       [height=0.5,
                 label="",
@@ -54,7 +54,8 @@ graph G {
                 label="",
                 pos="671.31,306.45!",
                 width=0.5];
-        39      [height=0.5,
+        39      [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="451.37,418.56!",
                 width=0.5];
@@ -90,8 +91,7 @@ graph G {
                 label="",
                 pos="623.16,771.92!",
                 width=0.5];
-        35      [fillcolor=cornflowerblue,
-                height=0.5,
+        35      [height=0.5,
                 label="",
                 pos="520.9,564.51!",
                 width=0.5];
@@ -111,7 +111,8 @@ graph G {
                 label="",
                 pos="1197.6,446!",
                 width=0.5];
-        36      [height=0.5,
+        36      [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="717.54,801.11!",
                 width=0.5];
@@ -183,8 +184,7 @@ graph G {
                 label="",
                 pos="804.71,157.84!",
                 width=0.5];
-        3       [fillcolor=cornflowerblue,
-                height=0.5,
+        3       [height=0.5,
                 label="",
                 pos="1057.1,46.122!",
                 width=0.5];

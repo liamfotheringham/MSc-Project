@@ -12,208 +12,206 @@ graph G {
                 style=filled
         ];
         edge [arrowhead=none,
-                penwidth=1
+                penwidth=2
         ];
         1       [height=0.5,
-                label="",
+                
                 pos="18.238,341.37!",
                 width=0.5];
         30      [height=0.5,
-                label="",
+                
                 pos="157.83,433.16!",
                 width=0.5];
         40      [height=0.5,
-                label="",
+                
                 pos="270.2,373.94!",
                 width=0.5];
         24      [height=0.5,
-                label="",
+                
                 pos="335.91,669.45!",
                 width=0.5];
-        44      [fillcolor=cornflowerblue,
-                height=0.5,
-                label="",
+        44      [height=0.5,
+                
                 pos="311.58,201.34!",
                 width=0.5];
         47      [height=0.5,
-                label="",
+                
                 pos="327.42,488.04!",
                 width=0.5];
         22      [height=0.5,
-                label="",
+                
                 pos="499.02,490.58!",
                 width=0.5];
         8       [height=0.5,
-                label="",
+                
                 pos="721.38,344.9!",
                 width=0.5];
         46      [height=0.5,
-                label="",
+                
                 pos="780.14,579.61!",
                 width=0.5];
         16      [height=0.5,
-                label="",
+                
                 pos="671.31,306.45!",
                 width=0.5];
         39      [height=0.5,
-                label="",
+                
                 pos="451.37,418.56!",
                 width=0.5];
         50      [height=0.5,
-                label="",
+                
                 pos="613.61,228.92!",
                 width=0.5];
-        32      [fillcolor=cornflowerblue,
-                height=0.5,
-                label="",
+        32      [height=0.5,
+                
                 pos="538.88,246.61!",
                 width=0.5];
         10      [height=0.5,
-                label="",
+                
                 pos="844.32,532.78!",
                 width=0.5];
         25      [height=0.5,
-                label="",
+                
                 pos="731.46,648.88!",
                 width=0.5];
         19      [height=0.5,
-                label="",
+                
                 pos="776.05,421.05!",
                 width=0.5];
         33      [height=0.5,
-                label="",
+                
                 pos="1035.7,422.09!",
                 width=0.5];
         12      [height=0.5,
-                label="",
+                
                 pos="645.81,596.55!",
                 width=0.5];
         27      [height=0.5,
-                label="",
+                
                 pos="623.16,771.92!",
                 width=0.5];
         35      [height=0.5,
-                label="",
+                
                 pos="520.9,564.51!",
                 width=0.5];
         15      [height=0.5,
-                label="",
+                
                 pos="946.83,382.4!",
                 width=0.5];
         43      [height=0.5,
-                label="",
+                
                 pos="733.35,262.99!",
                 width=0.5];
         9       [height=0.5,
-                label="",
+                
                 pos="930.2,251.82!",
                 width=0.5];
         48      [height=0.5,
-                label="",
+                
                 pos="1197.6,446!",
                 width=0.5];
         36      [height=0.5,
-                label="",
+                
                 pos="717.54,801.11!",
                 width=0.5];
         17      [height=0.5,
-                label="",
+                
                 pos="833.12,429.46!",
                 width=0.5];
         21      [height=0.5,
-                label="",
+                
                 pos="811.53,268.67!",
                 width=0.5];
         13      [height=0.5,
-                label="",
+                
                 pos="266.69,865.36!",
                 width=0.5];
         38      [height=0.5,
-                label="",
+                
                 pos="456.99,695.2!",
                 width=0.5];
         29      [height=0.5,
-                label="",
+                
                 pos="616.79,483.12!",
                 width=0.5];
         49      [height=0.5,
-                label="",
+                
                 pos="114.51,731.26!",
                 width=0.5];
         14      [height=0.5,
-                label="",
+                
                 pos="423.28,636.67!",
                 width=0.5];
         18      [height=0.5,
-                label="",
+                
                 pos="317.2,583.17!",
                 width=0.5];
         37      [height=0.5,
-                label="",
+                
                 pos="462.69,97.241!",
                 width=0.5];
         34      [height=0.5,
-                label="",
+                
                 pos="461.47,836.62!",
                 width=0.5];
         2       [height=0.5,
-                label="",
+                
                 pos="373.52,377.5!",
                 width=0.5];
         42      [height=0.5,
-                label="",
+                
                 pos="427,217.55!",
                 width=0.5];
         11      [height=0.5,
-                label="",
+                
                 pos="458.63,311.38!",
                 width=0.5];
         26      [height=0.5,
-                label="",
+                
                 pos="441.31,17.81!",
                 width=0.5];
         41      [height=0.5,
-                label="",
+                
                 pos="585.31,178.5!",
                 width=0.5];
         31      [height=0.5,
-                label="",
+                
                 pos="537.64,409.5!",
                 width=0.5];
         28      [height=0.5,
-                label="",
+                
                 pos="804.71,157.84!",
                 width=0.5];
         3       [height=0.5,
-                label="",
+                
                 pos="1057.1,46.122!",
                 width=0.5];
         20      [height=0.5,
-                label="",
+                
                 pos="1172.2,230.26!",
                 width=0.5];
         6       [height=0.5,
-                label="",
+                
                 pos="1056.7,134.17!",
                 width=0.5];
         45      [height=0.5,
-                label="",
+                
                 pos="1174.3,274.79!",
                 width=0.5];
         4       [height=0.5,
-                label="",
+                
                 pos="922.38,592.57!",
                 width=0.5];
         23      [height=0.5,
-                label="",
+                
                 pos="608.44,1024!",
                 width=0.5];
         5       [height=0.5,
-                label="",
+                
                 pos="522.9,779.65!",
                 width=0.5];
         7       [height=0.5,
-                label="",
+                
                 pos="453.33,538.68!",
                 width=0.5];
         32 -- 28        [f=1];
@@ -260,7 +258,7 @@ graph G {
         29 -- 8 [f=17];
         29 -- 10        [f=1];
         44 -- 37        [f=2];
-        44 -- 32        [f=15, color=red];
+        44 -- 32        [f=15];
         35 -- 16        [f=6];
         35 -- 18        [f=16];
         35 -- 34        [f=4];
