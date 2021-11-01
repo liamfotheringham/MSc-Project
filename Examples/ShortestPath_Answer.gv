@@ -12,7 +12,7 @@ graph G {
                 style=filled
         ];
         edge [arrowhead=none,
-                penwidth=1
+                penwidth=2
         ];
         1       [height=0.5,
                 label="",
