@@ -12,7 +12,7 @@ graph G {
                 style=filled
         ];
         edge [arrowhead=none,
-                penwidth=1
+                penwidth=2
         ];
         2       [height=0.19444,
                 pos="208.27,136.74",
