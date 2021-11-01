@@ -1,0 +1,47 @@
+graph g {
+	graph [K=1,
+		outputorder=edgesfirst,
+		splines=line
+	];
+	node [fixedsize=true,
+		fontname=Arial,
+		fontsize=10,
+		label="\N",
+		shape=circle,
+		style=filled
+	];
+	edge [arrowhead=none,
+		penwidth=2
+	];
+
+	2	[height=0.19444,
+		pos="208.27,136.74",
+		label="",
+		width=0.19444,
+		style=filled, 
+		fillcolor=cornflowerblue];
+	1	[height=0.19444,
+		pos="164.11,110.71",
+		label="",
+		width=0.19444];
+	2 -- 1;
+	3	[height=0.19444,
+		pos="258.98,119.05",
+		label="",
+		width=0.19444];
+	3 -- 2[color=red];
+	4	[height=0.19444,
+		pos="181.51,140.94",
+		label="",
+		width=0.19444];
+	4 -- 2;
+	4 -- 1;
+	4 -- 3;
+	5	[height=0.19444,
+		pos="181.51,140.94",
+		label="",
+		style=filled, 
+		fillcolor=cornflowerblue
+		width=0.19444];
+	5 -- 3[color=red];
+}

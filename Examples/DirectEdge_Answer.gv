@@ -30,7 +30,8 @@ graph G {
                 label="",
                 pos="335.91,669.45!",
                 width=0.5];
-        44      [height=0.5,
+        44      [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="311.58,201.34!",
                 width=0.5];
@@ -62,7 +63,8 @@ graph G {
                 label="",
                 pos="613.61,228.92!",
                 width=0.5];
-        32      [height=0.5,
+        32      [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="538.88,246.61!",
                 width=0.5];
@@ -82,8 +84,7 @@ graph G {
                 label="",
                 pos="1035.7,422.09!",
                 width=0.5];
-        12      [fillcolor=cornflowerblue,
-                height=0.5,
+        12      [height=0.5,
                 label="",
                 pos="645.81,596.55!",
                 width=0.5];
@@ -259,7 +260,7 @@ graph G {
         29 -- 8 [f=17];
         29 -- 10        [f=1];
         44 -- 37        [f=2];
-        44 -- 32        [f=15];
+        44 -- 32        [f=15, color=red];
         35 -- 16        [f=6];
         35 -- 18        [f=16];
         35 -- 34        [f=4];

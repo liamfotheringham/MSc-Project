@@ -29,7 +29,8 @@ graph G {
         24      [height=0.5,
                 label="",
                 pos="335.91,669.45!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green];
         44      [height=0.5,
                 label="",
                 pos="311.58,201.34!",
@@ -45,7 +46,8 @@ graph G {
         8       [height=0.5,
                 label="",
                 pos="721.38,344.9!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green,];
         46      [height=0.5,
                 label="",
                 pos="780.14,579.61!",
@@ -71,6 +73,7 @@ graph G {
                 pos="844.32,532.78!",
                 width=0.5];
         25      [height=0.5,
+                fillcolor=green,
                 label="",
                 pos="731.46,648.88!",
                 width=0.5];
@@ -90,7 +93,8 @@ graph G {
         27      [height=0.5,
                 label="",
                 pos="623.16,771.92!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green];
         35      [height=0.5,
                 label="",
                 pos="520.9,564.51!",
@@ -114,11 +118,13 @@ graph G {
         36      [height=0.5,
                 label="",
                 pos="717.54,801.11!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green];
         17      [height=0.5,
                 label="",
                 pos="833.12,429.46!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green];
         21      [height=0.5,
                 label="",
                 pos="811.53,268.67!",
@@ -202,7 +208,8 @@ graph G {
         4       [height=0.5,
                 label="",
                 pos="922.38,592.57!",
-                width=0.5];
+                width=0.5,
+                fillcolor=green];
         23      [height=0.5,
                 label="",
                 pos="608.44,1024!",
@@ -230,7 +237,7 @@ graph G {
         10 -- 25        [f=1];
         10 -- 19        [f=5];
         10 -- 33        [f=1];
-        25 -- 12        [f=1];
+        25 -- 12        [f=1, color=red];
         25 -- 27        [f=1];
         19 -- 35        [f=4];
         19 -- 15        [f=9];
@@ -238,20 +245,20 @@ graph G {
         33 -- 46        [f=3];
         33 -- 9 [f=2];
         33 -- 48        [f=17];
-        12 -- 8 [f=1];
-        12 -- 36        [f=5];
-        12 -- 17        [f=16];
+        12 -- 8 [f=1, color=red];
+        12 -- 36        [f=5, color=red];
+        12 -- 17        [f=16, color=red];
         36 -- 46        [f=4];
         17 -- 21        [f=4];
         13 -- 38        [f=1];
         13 -- 24        [f=19];
         38 -- 29        [f=1];
         38 -- 35        [f=15];
-        24 -- 12        [f=19];
+        24 -- 12        [f=19, color=red];
         24 -- 13        [f=1];
         24 -- 49        [f=1];
         24 -- 47        [f=12];
-        27 -- 12        [f=1];
+        27 -- 12        [f=1, color=red];
         27 -- 14        [f=8];
         14 -- 38        [f=18];
         14 -- 24        [f=15];
@@ -299,7 +306,7 @@ graph G {
         9 -- 6  [f=2];
         15 -- 16        [f=2];
         15 -- 48        [f=2];
-        4 -- 12 [f=16];
+        4 -- 12 [f=16, color=red];
         4 -- 17 [f=4];
         4 -- 15 [f=6];
         21 -- 19        [f=4];

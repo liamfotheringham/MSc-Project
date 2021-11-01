@@ -12,7 +12,7 @@ graph G {
                 style=filled
         ];
         edge [arrowhead=none,
-                penwidth=2
+                penwidth=1
         ];
         1       [height=0.5,
                 label="",
@@ -82,8 +82,7 @@ graph G {
                 label="",
                 pos="1035.7,422.09!",
                 width=0.5];
-        12      [fillcolor=cornflowerblue,
-                height=0.5,
+        12      [height=0.5,
                 label="",
                 pos="645.81,596.55!",
                 width=0.5];
@@ -91,7 +90,8 @@ graph G {
                 label="",
                 pos="623.16,771.92!",
                 width=0.5];
-        35      [height=0.5,
+        35      [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="520.9,564.51!",
                 width=0.5];
@@ -183,7 +183,8 @@ graph G {
                 label="",
                 pos="804.71,157.84!",
                 width=0.5];
-        3       [height=0.5,
+        3       [fillcolor=cornflowerblue,
+                height=0.5,
                 label="",
                 pos="1057.1,46.122!",
                 width=0.5];
@@ -223,7 +224,7 @@ graph G {
         40 -- 47        [f=1];
         40 -- 22        [f=1];
         8 -- 46 [f=1];
-        8 -- 16 [f=18];
+        8 -- 16 [f=18, color=red];
         16 -- 39        [f=8];
         16 -- 50        [f=2];
         16 -- 32        [f=14];
@@ -260,7 +261,7 @@ graph G {
         29 -- 10        [f=1];
         44 -- 37        [f=2];
         44 -- 32        [f=15];
-        35 -- 16        [f=6];
+        35 -- 16        [f=6, color=red];
         35 -- 18        [f=16];
         35 -- 34        [f=4];
         2 -- 35 [f=3];
@@ -288,9 +289,9 @@ graph G {
         32 -- 42        [f=15];
         32 -- 39        [f=13];
         3 -- 20 [f=2];
-        3 -- 28 [f=19];
+        3 -- 28 [f=19, color=red];
         20 -- 33        [f=2];
-        28 -- 8 [f=18];
+        28 -- 8 [f=18, color=red];
         28 -- 43        [f=1];
         6 -- 28 [f=10];
         6 -- 45 [f=2];
