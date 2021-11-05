@@ -30,8 +30,8 @@ for ((i = 1; i < $2; i++)); do
 
         #Append highlight node code to end of file
         echo "$no_label_code" >> "$folder_name/graphs/$highlighted_filename"
-        echo "$i[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
-        echo "$j[style=filled, fillcolor=cornflowerblue]" >> "$folder_name/graphs/$highlighted_filename"
+        echo "$i[style=filled, fillcolor=black]" >> "$folder_name/graphs/$highlighted_filename"
+        echo "$j[style=filled, fillcolor=black]" >> "$folder_name/graphs/$highlighted_filename"
         echo "}" >> "$folder_name/graphs/$highlighted_filename"
 
         #Create graph drawing
