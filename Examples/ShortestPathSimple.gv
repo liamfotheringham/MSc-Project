@@ -19,7 +19,7 @@ graph g {
 		label="",
 		width=0.19444,
 		style=filled, 
-		fillcolor=cornflowerblue];
+		fillcolor=black];
 	1	[height=0.19444,
 		pos="164.11,110.71",
 		label="",
@@ -41,7 +41,7 @@ graph g {
 		pos="181.51,140.94",
 		label="",
 		style=filled, 
-		fillcolor=cornflowerblue
+		fillcolor=black
 		width=0.19444];
 	5 -- 3[color=red];
 }

@@ -30,7 +30,7 @@ graph G {
                 label="",
                 pos="335.91,669.45!",
                 width=0.5];
-        44      [fillcolor=cornflowerblue,
+        44      [fillcolor=black,
                 height=0.5,
                 label="",
                 pos="311.58,201.34!",
@@ -63,7 +63,7 @@ graph G {
                 label="",
                 pos="613.61,228.92!",
                 width=0.5];
-        32      [fillcolor=cornflowerblue,
+        32      [fillcolor=black,
                 height=0.5,
                 label="",
                 pos="538.88,246.61!",

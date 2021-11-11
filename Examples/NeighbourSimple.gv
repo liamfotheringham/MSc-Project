@@ -30,7 +30,7 @@ graph g {
 		label="",
 		width=0.19444,
 		style=filled, 
-		fillcolor=cornflowerblue];
+		fillcolor=black];
 	3 -- 2[color=red];
 	4	[height=0.19444,
 		pos="181.51,140.94",

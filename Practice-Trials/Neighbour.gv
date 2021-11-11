@@ -162,7 +162,7 @@ graph G {
                 label="",
                 pos="427,217.55!",
                 width=0.5];
-        11      [fillcolor=cornflowerblue,
+        11      [fillcolor=black,
                 height=0.5,
                 label="",
                 pos="458.63,311.38!",

@@ -90,7 +90,7 @@ graph G {
                 label="",
                 pos="623.16,771.92!",
                 width=0.5];
-        35      [fillcolor=cornflowerblue,
+        35      [fillcolor=black,
                 height=0.5,
                 label="",
                 pos="520.9,564.51!",
@@ -183,7 +183,7 @@ graph G {
                 label="",
                 pos="804.71,157.84!",
                 width=0.5];
-        3       [fillcolor=cornflowerblue,
+        3       [fillcolor=black,
                 height=0.5,
                 label="",
                 pos="1057.1,46.122!",

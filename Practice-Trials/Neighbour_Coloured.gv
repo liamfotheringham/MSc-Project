@@ -164,7 +164,7 @@ graph G {
 		width=0.5];
 	10 -- 19	[color="#000000",
 		f=5];
-	33	[fillcolor=cornflowerblue,
+	33	[fillcolor=black,
 		height=0.5,
 		label="",
 		pos="1035.7,422.09!",
