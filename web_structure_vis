@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#Liam Fotheringham - 2595981F
+
+rm outfile.gv
+
+webaddress="$1"
+
+pageLinks=$(wget --no-check-certificate --secure-protocol=auto -qO- "$webaddress" \
+| egrep -oi '<a [^>]+>' \
+| egrep -o 'href="[^\"]+"' \
+| egrep -o \".* \
+| tr -d \" \
+| sort -u)
+
+echo "graph G{
+        graph [outputorder=edgesfirst,
+		splines=line,
+        overlap=false
+	];
+	node [fontname=Arial,
+		style=filled
+	];
+	edge [arrowhead=none,
+		penwidth=2
+	];" >> outfile.gv
+
+for url in $pageLinks; do
+    echo "\"$webaddress\"" \-\- "\"$url\" " >> outfile.gv
+
+    pageLinksLevelTwo=$(wget --no-check-certificate --secure-protocol=auto -qO- "$url" \
+    | egrep -oi '<a [^>]+>' \
+    | egrep -o 'href="[^\"]+"' \
+    | egrep -o \".* \
+    | tr -d \" \
+    | sort -u)
+
+    for urltwo in $pageLinksLevelTwo; do
+        echo "\"$url\"" \-\- "\"$urltwo\" " >> outfile.gv
+    done
+
+done
+
+echo "}" >> outfile.gv
+
+neato -Tpng outfile.gv -o outfile.png
