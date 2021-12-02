@@ -1,0 +1,59 @@
+graph G {
+        rankdir="LR"
+        subgraph cluster1{
+                label = "Legend";
+                shape = rectangle;
+                color = "black";
+
+                node[
+                        shape="plaintext", 
+                        style=""
+                ];
+                edge[
+                        penwidth=2;
+                ];
+
+                key [
+                        label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+                        <tr><td align="right" port="i1">One Joint Publication</td></tr>
+                        <tr><td align="right" port="i2">Two Joint Publications</td></tr>
+                        <tr><td align="right" port="i3">Three Joint Publications</td></tr>
+                        <tr><td align="right" port="i4">Four Joint Publications</td></tr>
+                        </table>>
+                ]
+
+                key2 [
+                        label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+                        <tr><td port="i1">&nbsp;</td></tr>
+                        <tr><td port="i2">&nbsp;</td></tr>
+                        <tr><td port="i3">&nbsp;</td></tr>
+                        <tr><td port="i4">&nbsp;</td></tr>
+                        </table>>
+                ]
+
+                key:i1:e -- key2:i1:w;
+                key:i2:e -- key2:i2:w [color="#17c30a"];
+                key:i3:e -- key2:i3:w [color="#2B00FC"];
+                key:i4:e -- key2:i4:w [color="#FC0800"];
+                
+                Staff -- Student[style="invis"];
+                Student -- External[style="invis"];
+                Male -- Female[style="invis"];
+
+                {
+                        rank=same;
+                        Staff[style=filled, fillcolor="cornflowerblue", group="Role"];
+                        Male[shape="circle"];
+                }
+
+                {
+                        rank=same;
+                        Student[style=filled, fillcolor="chocolate", group="Role"];
+                        Female[shape="rectangle"];
+                }
+                
+                External[style=filled, group="Role"];
+
+
+        }
+}

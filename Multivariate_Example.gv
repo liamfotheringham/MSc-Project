@@ -1,0 +1,224 @@
+graph G {
+        graph [K=1.5,
+                outputorder=edgesfirst,
+                splines=line
+        ];
+        node [
+                fontname=Arial,
+                fontsize=11,
+                style=filled
+        ];
+        edge [arrowhead=none,
+                penwidth=2
+        ];
+        2       [
+                pos="208.27,136.74",
+                label="Newton",
+                fillcolor="cornflowerblue"];
+        1       [
+                pos="164.11,110.71",
+                label="da Vinci",
+                fillcolor="cornflowerblue"];
+        3       [
+                pos="258.98,119.05",
+                label="Aristotle",
+                fillcolor="cornflowerblue"];
+        4       [
+                pos="181.51,140.94",
+                label="Ptolemy",
+                fillcolor="cornflowerblue"];
+        5       [
+                pos="87.531,95.613",
+                label="Avicenna",
+                fillcolor="chocolate"];
+        6       [
+                pos="54.791,91.192",
+                label="Hippocratus",
+                fillcolor="cornflowerblue"];
+        7       [
+                pos="67.938,64.789",
+                label="Paracelus",
+                fillcolor="cornflowerblue"];
+        8       [
+                pos="191.57,99.981",
+                label="Galileo",
+                fillcolor="cornflowerblue"];
+        9       [
+                pos="272.23,84.961",
+                label="Kepler"];
+        10      [
+                pos="296.82,46.664",
+                label="Boyle",
+                fillcolor="chocolate"];
+        11      [
+                pos="71.66,126.35",
+                label="Hooke",
+                fillcolor="chocolate"];
+        12      [
+                pos="119.23,31.78",
+                label="Asclepius",
+                fillcolor="chocolate"];
+        13      [
+                pos="113.71,159.94",
+                label="Cavendish",
+                fillcolor="chocolate"];
+        14      [
+                pos="234.89,117.04",
+                label="Priestly"];
+        17      [
+                pos="7,53.953",
+                label="Galvani",
+                fillcolor="chocolate"];
+        18      [
+                pos="143.47,170.23",
+                label="Herschel",
+                fillcolor="chocolate"];
+        20      [
+                pos="236.7,78.835",
+                label="Curie",
+                shape="rectangle"];
+        22      [
+                pos="165.08,189.45",
+                label="Jenner",
+                fillcolor="chocolate"];
+        26      [
+                pos="366.7,171.77",
+                label="Dalton",
+                fillcolor="chocolate"];
+        24      [
+                pos="381.86,121.9",
+                label="Cuvier",
+                fillcolor="cornflowerblue"];
+        25      [
+                pos="347.62,210.32",
+                label="Darwin",
+                fillcolor="cornflowerblue"];
+        28      [
+                pos="337.61,154.46",
+                label="Davy"];
+        29      [
+                pos="305.69,167.17",
+                label="Mendel",
+                fillcolor="cornflowerblue"];
+        30      [
+                pos="382.06,54.67",
+                label="Thomson",
+                fillcolor="chocolate"];
+        27      [
+                pos="382.03,7",
+                label="Maxwell"];
+        31      [
+                pos="294.28,104.25",
+                label="Koch"];
+        32      [
+                pos="294.97,146.05",
+                label="Carson",
+                fillcolor="cornflowerblue",
+                shape="rectangle"];
+        33      [
+                pos="358.49,98.825",
+                label="Fleming",
+                fillcolor="cornflowerblue"];
+        15      [
+                pos="413.16,97.708",
+                label="Hawking",
+                fillcolor="cornflowerblue"];
+        16      [
+                pos="411.3,141.54",
+                label="Goodall",
+                shape="rectangle"];
+        19      [
+                pos="429.87,114.57",
+                label="Gould"];
+        21      [
+                pos="422.91,74.826",
+                label="Pinker",
+                fillcolor="chocolate"];
+        23      [
+                pos="405.25,41.362",
+                label="Mead",
+                fillcolor="chocolate",
+                shape="rectangle"];
+        34      [
+                pos="341.76,92.651",
+                label="Einstein",
+                fillcolor="cornflowerblue"];
+	2 -- 1 [color="#17c30a"];
+	3 -- 2 [color="#2B00FC"];
+	3 -- 1 [color="#17c30a"];
+	4 -- 2 [color="#17c30a"];
+	4 -- 1 [color="#2B00FC"];
+	4 -- 3 [color="#17c30a"];
+	5 -- 1;
+	6 -- 1 [color="#17c30a"];
+	7 -- 1;
+	7 -- 5 [color="#FC0800"];
+	7 -- 6 [color="#17c30a"];
+	8 -- 2 [color="#2B00FC"];
+	8 -- 1 [color="#17c30a"];
+	8 -- 3;
+	8 -- 4 [color="#17c30a"];
+	9 -- 1 [color="#2B00FC"];
+	9 -- 3;
+	10 -- 3 [color="#17c30a"];
+	11 -- 1;
+	11 -- 5 [color="#17c30a"];
+	11 -- 6 [color="#2B00FC"];
+	12 -- 1;
+	13 -- 1 [color="#17c30a"];
+	13 -- 4;
+	17 -- 6 [color="#17c30a"];
+	17 -- 7;
+	18 -- 2 [color="#17c30a"];
+	18 -- 1;
+	14 -- 2 [color="#2B00FC"];
+	14 -- 1 [color="#17c30a"];
+	14 -- 3;
+	14 -- 4 [color="#17c30a"];
+	20 -- 2 [color="#FC0800"];
+	20 -- 1 [color="#17c30a"];
+	22 -- 2 [color="#2B00FC"];
+	22 -- 1 [color="#17c30a"];
+	26 -- 24 [color="#FC0800"];
+	26 -- 25;
+	28 -- 3 [color="#17c30a"];
+	28 -- 24 [color="#2B00FC"];
+	28 -- 25 [color="#FC0800"];
+	29 -- 3 [color="#FC0800"];
+	30 -- 24 [color="#2B00FC"];
+	30 -- 27 [color="#17c30a"];
+	31 -- 2;
+	31 -- 9[color="#FC0800"];
+	32 -- 1 [color="#2B00FC"];
+	32 -- 26 [color="#17c30a"];
+	32 -- 25;
+	32 -- 29 [color="#17c30a"];
+	33 -- 3 [color="#2B00FC"];
+	33 -- 9;
+	33 -- 24 [color="#17c30a"];
+	33 -- 30;
+	33 -- 31 [color="#2B00FC"];
+	33 -- 32 [color="#17c30a"];
+	33 -- 15 [color="#FC0800"];
+	33 -- 16 [color="#2B00FC"];
+	33 -- 19 [color="#17c30a"];
+	33 -- 21;
+	33 -- 23;
+	34 -- 9;
+	34 -- 10 [color="#17c30a"];
+	34 -- 14;
+	34 -- 20 [color="#17c30a"];
+	34 -- 24 [color="#17c30a"];
+	34 -- 28 [color="#2B00FC"];
+	34 -- 29 [color="#17c30a"];
+	34 -- 30 [color="#2B00FC"];
+	34 -- 27 [color="#17c30a"];
+	34 -- 31;
+	34 -- 32 [color="#FC0800"];
+	34 -- 33 [color="#17c30a"];
+	34 -- 15;
+	34 -- 16 [color="#17c30a"];
+	34 -- 19 [color="#2B00FC"];
+	34 -- 21 [color="#17c30a"];
+	34 -- 23;
+}
