@@ -7,7 +7,7 @@ echo "Colouring $1 graph..."
 filename=$1
 
 #Apply edge colours to graph
-edgepaint -color_scheme=accent7 "$filename" > "${filename::-3}"_Coloured.gv
+edgepaint "$filename" > "${filename::-3}"_Coloured.gv
 
 #Produce graph drawing
 neato -n2 -Tpng "${filename::-3}"_Coloured.gv -o "${filename::-3}"_Coloured.png
